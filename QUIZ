@@ -1,0 +1,61 @@
+print("Seja bem vindo ao quiz sobre nozes <3!")
+answer_user = input ("Quer começar (S/N): ")
+
+if answer_user != "s":
+    quit()
+else:
+    print("Começar")
+print("Começando...")
+print("Qual das definições melhor descreve o Jack Silva? \n (A) Amante \n (B) Bizerro \n (C) NonBinary \n (D) Divo")
+answer_1 = input("Resposta: ")
+
+if answer_1 == "B":
+    print("Dixavou mana")
+else:
+    print("Ah não amigo...")
+ponto=ponto+1
+
+print("Qual a caracteristica mais marcante do Ramires? \n (A) Poser \n (B) Sigma \n (C) Skibidi \n (D) Deus")
+answer_2 = input("Resposta: ")
+
+if answer_2 == "D":
+    print("Boa vey!")
+else:
+    print("Errou!")
+ponto=ponto+1
+
+print("Qual é o nome da segunda personalidade da Emily que surgiu quando a Eva nomeou nossos nomes sociais de nomes fantasia \n (A) Pipi \n (B) Breno \n (C) Remi  \n (D) Nekutai")
+answer_3 = input("Resposta: ")
+
+if answer_3 == "A":
+    print("Vapoooo")
+else:
+    print("Aaah... Melhore?")
+ponto=ponto+1
+
+print("Quais cores a Belle enxerga? \n (A) Verde e Amarelo \n (B) Azul e Roxo \n (C) Ramires e indio? \n (D) Vermelho e Azul")
+answer_4 = input("Resposta: ")
+
+if answer_4 == "D":
+    print("Parabéns, Xuxu!")
+else:
+    print("....")
+ponto=ponto+1    
+
+print("Qual o nome do xuxu do Marcio? \n (A) Pedre-gulho \n (B) Sargitarius28 \n (C) Skibidi \n (D) Discord")
+answer_5= input("Resposta: ")
+
+if answer_5 == "B":
+    print("gg")
+else:
+    print("Beta spiriti")
+ponto=ponto+1
+
+print("Qual é o nome da .... \n (A) Judite \n (B) Pripiate \n (C) Marcia  \n (D) Gabriel")
+answer_6 = input("Resposta: ")
+
+if answer_6 == "C":
+    print("Tá")
+else:
+    print("O medo quis")
+ponto=ponto+1
