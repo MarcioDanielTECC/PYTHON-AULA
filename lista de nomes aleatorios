@@ -1,0 +1,10 @@
+#Escolher um nome aleatorio
+import random
+
+nome1 = input("Digite os nomes: ")
+nome2 = input("Digite os nomes: ")
+nome3 = input("Digite os nomes: ")
+nome4 = input("Digite os nomes: ")
+list = [nome1,nome2,nome3,nome4]
+random.choice(list)
+print(random.choice(list))
