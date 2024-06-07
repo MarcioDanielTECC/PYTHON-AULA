@@ -1,0 +1,8 @@
+import random
+
+nome1 = input("Digite os nomes: ")
+nome2 = input("Digite os nomes: ")
+nome3 = input("Digite os nomes: ")
+nome4 = input("Digite os nomes: ")
+list = [nome1,nome2,nome3,nome4]
+print(random.choices(list,weights=[1,1,1,1],k=2))
