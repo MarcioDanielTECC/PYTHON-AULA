@@ -1,0 +1,15 @@
+cargo = input("Qual é o seu cargo na empresa?")
+semana =input ("Em qual dia da semana deseja entrar?")
+dias_uteis= "segunda", "terça", "quarta", "quinta", "sexta"
+fim_de_semana= "sábado", "domingo"
+
+
+if cargo == "estagiario" and semana in fim_de_semana:
+    print("Acesso Negado.")
+elif cargo =="gerente":
+    print("Acesso permitido.")
+
+elif cargo == "estagiario" and semana in dias_uteis:
+    print("Acesso permitido")
+else:
+    print("Acesso permitido.")
